@@ -4,8 +4,8 @@ USER root
 RUN apt-get update
 
 RUN apt-get install -y libhdf5-dev libnetcdf-dev
-RUN apt-get install python-matplotlib
-RUN apt-get install python-mpltoolkits.basemap
+RUN apt-get install -y python-matplotlib
+RUN apt-get install -y python-mpltoolkits.basemap
 
 USER main
 
