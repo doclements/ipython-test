@@ -2,7 +2,8 @@ USER root
 
 # Add dependency
 RUN apt-get update
-RUN apt-get install -y hdf5 hdf5-devel netcdf netcdf-devel
+
+RUN apt-get install -y libhdf5-8 libnetcdf-dev
 
 USER main
 
