@@ -1,7 +1,3 @@
-FROM andrewosh/binder-base
-
-MAINTAINER Jeremy Freeman <freeman.jeremy@gmail.com>
-
 USER root
 
 # Add dependency
