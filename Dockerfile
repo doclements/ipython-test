@@ -3,7 +3,7 @@ USER root
 # Add dependency
 RUN apt-get update
 
-RUN apt-get install -y libhdf5-dev libnetcdf-dev
+RUN apt-get install -y libhdf5-dev libnetcdf-dev python-mpltoolkits
 
 USER main
 
