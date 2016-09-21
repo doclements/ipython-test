@@ -1,3 +1,4 @@
+from centos:latest
 USER root
 
 # Add dependency
