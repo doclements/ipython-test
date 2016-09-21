@@ -1,4 +1,3 @@
 git+https://github.com/earthserver-eu/OWSLib@olcl-wcs-200
 matplotlib
-basemap
 numpy
