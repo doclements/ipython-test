@@ -1,0 +1,6 @@
+{
+  "tests/doctests/csw_skgeodsy.txt::csw_skgeodsy.txt": true, 
+  "tests/doctests/wcs_idee.txt::wcs_idee.txt": true, 
+  "tests/doctests/wmts.txt::wmts.txt": true, 
+  "tests/doctests/wmts_SFSWorldWMTSCapabilities.txt::wmts_SFSWorldWMTSCapabilities.txt": true
+}

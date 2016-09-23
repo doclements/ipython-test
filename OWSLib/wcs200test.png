@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ows:ExceptionReport version="2.0.0"
+    xsd:schemaLocation="http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd"
+    xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ows:Exception exceptionCode="InternalComponentError">
+        <ows:ExceptionText>Error while fetching cell boundaries of irregular axis 'ansi' of coverage CCI_V2_monthly_chlor_a_bias: CCI_V2_monthly_chlor_a_bias does not contain any slices in the given subset (between coefficients '852.00069444443215616047382354736328125' and '852.00069444443215616047382354736328125').</ows:ExceptionText>
+    </ows:Exception>
+
+</ows:ExceptionReport>
+
