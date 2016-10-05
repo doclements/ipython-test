@@ -5,9 +5,7 @@ RUN apt-get update
 
 RUN apt-get install -y libhdf5-dev libnetcdf-dev
 RUN apt-get install -y python-matplotlib
-RUN apt-get install -y libgeos-3.4.2
-RUN apt-get install -y libgeos-dev
-RUN pip install https://github.com/matplotlib/basemap/archive/master.zip
+
 
 USER main
 
